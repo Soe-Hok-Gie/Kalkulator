@@ -16,3 +16,21 @@
     box-sizing: border-box;
 
 }
+.calculator-keys{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+button{
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: white;
+    width: 25%;
+    outline: none;
+}
+.all-clear, .zero-btn{
+    width: 50%;
+}
