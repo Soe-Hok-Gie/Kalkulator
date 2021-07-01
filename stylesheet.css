@@ -22,7 +22,7 @@
 .row{
     display: flex;
 }
-button{
+    button{
     height: 80px;
     background-color: gray;
     border: 1px solid black;
@@ -33,4 +33,7 @@ button{
 }
 .all-clear, .zero-btn{
     width: 50%;
+}
+.operator, .equal-sign {
+    background-color: orange;
 }
