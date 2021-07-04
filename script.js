@@ -7,7 +7,12 @@ const updateScreen = (number) => {
 const numbers = document.querySelectorAll(".number")
 
 const inputNumber = (number) =>{
-    currentNumber = number
+
+    if (currentNumber === '0') {
+        currentNumber = number
+
+    }else
+    currentNumber += number
 }
 
 numbers.forEach((number) => {
