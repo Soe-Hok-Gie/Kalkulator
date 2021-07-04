@@ -6,8 +6,13 @@ const updateScreen = (number) => {
 
 const numbers = document.querySelectorAll(".number")
 
+const inputNumber = (number) =>{
+    currentNumber = number
+}
+
 numbers.forEach((number) => {
     number.addEventListener("click", (event) => {
-    updateScreen(event.target.value)
+        inputNumber(event.target.value)
+        updateScreen(currentNumber)
     })
 })
