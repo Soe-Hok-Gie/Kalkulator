@@ -25,8 +25,11 @@ numbers.forEach((number) => {
 const operators = document.querySelectorAll(".operator")
 
 const inputOperator = (operator) => {
+    prevNumber =currentNumber
+   
     
 }
+
 
 
 operators.forEach((operator) => {
