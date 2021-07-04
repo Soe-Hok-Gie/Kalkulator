@@ -26,7 +26,7 @@ const operators = document.querySelectorAll(".operator")
 
 const inputOperator = (operator) => {
     prevNumber =currentNumber
-   
+    calculationOperator = operator
     
 }
 
