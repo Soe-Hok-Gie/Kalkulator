@@ -61,6 +61,8 @@ const calculate = () => {
         result = prevNumber / currentNumber
         break
     default:
-        break
+        return
     }
+    currentNumber = result
+    calculationOperator =''
 }
