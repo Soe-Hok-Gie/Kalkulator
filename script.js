@@ -38,3 +38,7 @@ operator.addEventListener("click",(event)=> {
 })
 
 const equalSign = document.querySelector('.equal-Sign')
+
+equalSign.addEventListener('click', () => {
+    console.log ('equal button is pressed')
+})
