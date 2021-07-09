@@ -31,10 +31,10 @@ const inputOperator = (operator) => {
 
 }
 
-
-
 operators.forEach((operator) => {
 operator.addEventListener("click",(event)=> {
     console.log (event.target.value)
 })
 })
+
+const equalSign = document.querySelector('.equal-Sign')
