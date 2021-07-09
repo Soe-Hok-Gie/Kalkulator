@@ -1,18 +1,18 @@
-const calculatorScreen = document.querySelectorAll('.calculator-screen')
+const calculatorScreen = document.querySelector('.calculator-screen')
 
 const updateScreen = (number) => {
+    console.log(number)
     calculatorScreen.value = number
 }
 
 const numbers = document.querySelectorAll(".number")
-
+let currentNumber='0';
 const inputNumber = (number) =>{
-
     if (currentNumber === '0') {
         currentNumber = number
-
-    }else
-    currentNumber += number
+    }else{
+        currentNumber += number
+    }
 }
 
 numbers.forEach((number) => {
