@@ -42,3 +42,25 @@ const equalSign = document.querySelector('.equal-Sign')
 equalSign.addEventListener('click', () => {
     console.log ('equal button is pressed')
 })
+
+const calculate = () => {
+    let result = ''
+
+    switch (calculationOperator){
+
+    case "+":
+        result = prevNumber + currentNumber
+        break
+    case "-":
+        result = prevNumber - currentNumber
+        break
+    case "*":
+        result = prevNumber * currentNumber
+        break
+    case "/":
+        result = prevNumber / currentNumber
+        break
+    default:
+        break
+    }
+}
