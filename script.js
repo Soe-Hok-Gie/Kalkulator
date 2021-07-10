@@ -85,3 +85,9 @@ clearBtn.addEventListener ('click', ()=> {
     clearAll ()
     updateScreen (currentNumber)
 })
+
+const decimal = document.querySelector('.decimal')
+
+decimal.addEventListener('click', (event) => {
+    console.log (event.target.value)
+})
